@@ -11,10 +11,27 @@
     <header></header>
     <main>
         <div class="container">
-            <div class="video">video</div>
+            <div class="video">
+                <video id="videotag" height="80%" width="auto" muted controls  poster="./img/damson.jpg">
+                    <source src="./video/damnson.mp4" type="video/mp4">
+                    <source src="/video/damnson.ogv" type="video/ogv">                
+                    <track src="./subtitles/english.vvt" kind="subtitles" srclang="en" label="Ingles"> 
+                    <track src="./subtitles/spanish.vvt" kind="subtitles" srclang="es" label="Español">     
+                </video>
+                <div id="btns">
+                    <button id="slowBtn">X0.5</button>
+                    <button id="normalBtn">X1</button>
+                    <button id="fastBtn">X2</button>
+                </div>
+            </div>
             <div class="imagen">imagen</div>
-            <div class="map">map</div>
-            <div class="audio">audio</div>
+            <div class="map">
+                <iframe src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=CIFP%20C%C3%A9sar%20Manrique,%20Avenida%20Principes%20de%20Espa%C3%B1a,%20Santa%20Cruz%20de%20Tenerife+()&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+            </div>
+            <div class="audio">
+                <audio src="./audio/bichiyal.mp3" controls loop>
+                </audio>
+            </div>
         </div>
     </main>
     <script src="./js/actions.js"></script>

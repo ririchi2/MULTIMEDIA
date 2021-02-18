@@ -29,6 +29,9 @@ body {
     height: 100px;
     grid-column-start: 1;
     grid-column-end: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .imagen {
     background-color: $red;
@@ -39,9 +42,18 @@ body {
     background-color: $yellow;
     width: 400px;
     height: 100px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.map iframe {
+    width: 100%;
 }
 .audio {
     background-color: $green;
     grid-column-start: 1;
     grid-column-end: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
