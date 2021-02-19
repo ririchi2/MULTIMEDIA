@@ -27,7 +27,18 @@ body {
 .imagen {
   background-color: red;
   width: 400px;
-  height: 100px; }
+  height: 100px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  max-height: 100%; }
+
+#randompic {
+  transition: all 2s; }
+
+#randompic:hover {
+  transform: scale(1.5);
+  cursor: crosshair; }
 
 .map {
   background-color: yellow;

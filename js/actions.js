@@ -1,4 +1,13 @@
+window.onload = randomImage();
 
+// function lanzadora(){
+// cambiarURLFOTO();
+
+// }
+function randomImage(){
+    var randompic = document.getElementById("randompic");
+    randompic.src="https://source.unsplash.com/random"
+}
 
 
 var slowBtn = document.getElementById("slowBtn");
